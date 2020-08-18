@@ -9,7 +9,7 @@ def return_success_response(code=None,msg=None,data=None):
     return jsonify(res)
 
 
-def return_error_response(code=None,msg=None,data=None)
+def return_error_response(code=None,msg=None,data=None):
     return jsonify({})
 
 def return_xixi_response():
