@@ -14,3 +14,7 @@ def return_error_response(code=None,msg=None,data=None):
 
 def return_xixi_response():
     return jsonify({'嘻嘻哈哈':'阿兜'})
+
+
+def woshi():
+    return jsonify({'我是':'大彪'})
